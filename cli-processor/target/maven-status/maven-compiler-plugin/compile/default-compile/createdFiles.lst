@@ -1,0 +1,6 @@
+com/github/asm0dey/cligen/FieldTypeAnalyzer$1.class
+com/github/asm0dey/cligen/FieldTypeAnalyzer.class
+META-INF/services/javax.annotation.processing.Processor
+com/github/asm0dey/cligen/CliAnnotationProcessor$OptionMetadata.class
+com/github/asm0dey/cligen/CliAnnotationProcessor$ParameterMetadata.class
+com/github/asm0dey/cligen/CliAnnotationProcessor.class

@@ -1,0 +1,4 @@
+MigrateAppCommandParser.class
+WebServerConfigCommandParser.class
+WebServerConfig.class
+MigrateApp.class

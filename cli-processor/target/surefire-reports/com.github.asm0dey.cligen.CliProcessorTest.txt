@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.github.asm0dey.cligen.CliProcessorTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.193 s -- in com.github.asm0dey.cligen.CliProcessorTest

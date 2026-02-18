@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cli-runtime" />
+        <module name="cli-annotations" />
+      </profile>
+      <profile name="Annotation profile for example" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="com.github.asm0dey.cligen.runtime.processor.CliAnnotationProcessor" />
+        <module name="example" />
+      </profile>
+      <profile name="Annotation profile for CLI Generation Parent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <module name="cli-processor" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
